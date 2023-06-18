@@ -7,7 +7,7 @@ author: 'Astro Learner'
 image:
     url: 'https://docs.astro.build/assets/full-logo-dark.png' 
     alt: 'The full Astro logo.'
-tags: ["astro", "markdown", "learning in public"]
+tags: ["astro", "markdown", "learning in public", "blogging"]
 ---
 
 I learned so much today! Astro allows me to write in Markdown, but also use variables from the frontmatter. I can even access those values in an Astro layout component.
