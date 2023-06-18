@@ -15,9 +15,36 @@ body {
   box-sizing: border-box;
 }
 
+html.dark {
+  background-color: #0d0950;
+  color: #fff;
+}
+
+.dark .nav-links a {
+  color: #fff;
+}
+
 h1 {
   margin: 1rem 0;
   font-size: 2.5rem;
+}
+
+#themeToggle {
+  border: 0;
+  background: none;
+}
+.sun {
+  fill: black;
+}
+.moon {
+  fill: transparent;
+}
+
+:global(.dark) .sun {
+  fill: transparent;
+}
+:global(.dark) .moon {
+  fill: white;
 }
 
 .tagLink {
